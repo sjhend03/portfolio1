@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Staatliches&display=swap');
+body {
+    background-color: #262524;
+    color: #BFBFBF;
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+/* Header */
+header {
+    display: flex;
+    background-image: linear-gradient(to right, #262524, #7D6AA6);
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Staatliches', cursive;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+header #nav nav ul{
+    display: flex;
+    margin-right: 20px;
+    align-content: center;
+}
+header #nav nav ul li{
+    padding: 10px 20px;
+    font-size: 2rem;
+    border: 2px solid #262524;
+    margin: 0 10px;
+    border-radius: 20px;
+
+}
+#nav nav ul li a {
+    color: #BFBFBF;
+    text-decoration: none;
+}
+header #nav nav ul li:hover{
+    background-color: #7D6AA6;
+}
+header #nav nav ul li:active{
+    background-image: linear-gradient(to right, #262524, #7D6AA6);
+}
+header #title {
+    font-size: 3rem;
+    padding: 10px 20px;
+}
+
+
+/* Main */
+#projectsandblog h1,
+main > h1 {
+    margin: 50px auto;
+    font-size: 3rem;
+}
+#greeting,
+#projectsandblog{
+    height: 85vh;
+}
+#skills {
+    height: 50vh;
+}
+footer {
+    height: 15vh;
+}
+/* Greeting */
+#greeting h1,
+#greeting h2 {
+    background-color: #7D6AA6;
+    color: #A988F2;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+#greeting h1 {
+    font-size: 3.5rem;
+    height: 450px;
+    width: 450px;
+    left: 100px;
+    top: 50px;
+}
+#greeting h2 {
+    font-size: 1.5rem;
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px;
+    right: 300px;
+    bottom: 100px;
+}
+#greeting a {
+    background-color: #7D6AA6;
+    border-radius: 25px;
+    padding: 20px 50px;
+    position: relative;
+    bottom: 50px;
+    color:#A988F2;
+    text-decoration: none;
+}
+main #greeting {
+    background-image: linear-gradient(#262524, #474747);
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+/* Skills */
+main #skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#skills div {
+    margin-top: 100px;
+}
+#skills div h1 {
+    font-size: 2.5rem;
+}
+#skills div ul li {
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+/* Projects and Blog */
+main #projectsandblog {
+    background-image: linear-gradient(#474747, #262524);
+}
+#projectsandblog h1 {
+    padding-top: 60px;
+    font-size: 3rem;
+}
+#projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#projects figure {
+    margin: 20px 40px;
+    font-size: 2rem;
+}
+#blog p {
+    font-size: 1.5rem;
+    padding: 10px 100px;
+    line-height: 3rem;
+}
+footer {
+    background-color: #7D6AA6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #262524;
+}
+#footernav nav ul{
+    display: flex;
+    margin-right: 20px;
+    align-content: center;
+}
+#footernav nav ul li{
+    padding: 10px 20px;
+    font-size: 2rem;
+    margin: 0 10px;
+}
+#footernav nav ul li a {
+    color: #262524;
+    text-decoration: none;
+}
+#footernav nav ul li a:hover{
+    background-image: linear-gradient(to right, #262524, #7D6AA6);
+    border-radius: 50px;
+    color: #BFBFBF;
+}
+#footercontact {
+    margin-left: 200px;
+    font-size: 1.65rem;
+    text-align: left;
+}
